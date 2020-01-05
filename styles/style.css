@@ -1,0 +1,103 @@
+body {
+	background: #000000; 
+	color: #ffffff; 
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.main_text{
+	text-align: center;
+	font-size: 150px;
+	margin-top: 0px;
+}
+
+.my_links{
+	font-size: 60px;
+}
+
+.links{
+	text-align: center;
+	padding-bottom: 150px;
+}
+
+#my_youtube{
+	color: #ff0000;
+}
+
+.app_name{
+	font-size: 80px;
+	text-align: center;
+}
+
+.download_button{
+	background: #00ff00;
+	font-size: 60px;
+	transition: 0.5s all;
+	text-align: center;
+}
+
+.download_link{
+	transition: 0.5s all;
+	font-size: 60px;
+	color: #ffffff;
+}
+
+.github_link{
+	color: #ffffff;
+	font-size: 60px;
+	transition: 0.5s all;
+}
+
+.github_button{
+	background: #232323;
+	color: #ffffff;
+	font-size: 60px;
+	transition: 0.5s all;
+	text-align: center;
+}
+
+.youtube_link{
+	color: #ffffff;
+	font-size: 60px;
+	transition: 0.5s all;
+}
+
+.youtube_button{
+	background: #424242;
+	color: #ffffff;
+	font-size: 60px;
+	transition: 0.5s all;
+	text-align: center;
+}
+
+.download_link:hover{
+	font-size: 100px;
+}
+
+.github_link:hover{
+	font-size: 100px;
+}
+
+.youtube_link:hover{
+	font-size: 100px;
+}
+
+.app_information{
+	margin: 20px;
+	font-size: 25px;
+}
+
+.app_image{
+	margin: 10px;
+}
+
+.file_protect{
+	border: 5px;
+	border-color: #ffffff;
+	border-style: solid;
+	background: #323232;
+	margin: 80px
+}
