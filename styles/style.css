@@ -1,57 +1,64 @@
 body {
-	background: #000000; 
+	background: #1A1A1A; 
 	color: #ffffff; 
 	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+	position: relative;
+	align-items: center;
+	box-sizing: border-box;
+    width: 1500px;
+    margin: 0 auto;
 }
-
-a{
+a {
 	text-decoration: none;
 }
 
-.main_text{
+.main_text {
 	text-align: center;
-	font-size: 150px;
-	margin-top: 0px;
-}
-
-.my_links{
 	font-size: 60px;
+	margin-top: 0px;
+	position: relative;
+	box-sizing: border-box;
 }
 
-.links{
+.my_links {
+	font-size: 40px;
+}
+
+.links {
 	text-align: center;
 	padding-bottom: 150px;
 }
 
-#my_youtube{
+#my_youtube {
 	color: #ff0000;
 }
 
-.app_name{
-	font-size: 80px;
+.app_name {
+	font-size: 50px;
 	text-align: center;
 }
 
-.download_button{
+.download_button  {
 	background: #00ff00;
 	font-size: 60px;
 	transition: 0.5s all;
 	text-align: center;
 }
 
-.download_link{
+.download_link {
 	transition: 0.5s all;
 	font-size: 60px;
 	color: #ffffff;
 }
 
-.github_link{
+.github_link {
 	color: #ffffff;
 	font-size: 60px;
 	transition: 0.5s all;
 }
 
-.github_button{
+.github_button {
 	background: #232323;
 	color: #ffffff;
 	font-size: 60px;
@@ -59,13 +66,13 @@ a{
 	text-align: center;
 }
 
-.youtube_link{
+.youtube_link {
 	color: #ffffff;
 	font-size: 60px;
 	transition: 0.5s all;
 }
 
-.youtube_button{
+.youtube_button {
 	background: #424242;
 	color: #ffffff;
 	font-size: 60px;
@@ -73,31 +80,59 @@ a{
 	text-align: center;
 }
 
-.download_link:hover{
+.download_link:hover {
 	font-size: 100px;
 }
 
-.github_link:hover{
+.github_link:hover {
 	font-size: 100px;
 }
 
-.youtube_link:hover{
+.youtube_link:hover {
 	font-size: 100px;
 }
 
-.app_information{
+.app_information {
 	margin: 20px;
 	font-size: 25px;
 }
 
 .app_image{
 	margin: 10px;
+	position: relative;
 }
 
-.file_protect{
+.header {
+	position: relative;
+	box-sizing: border-box;
+}
+
+.file_protect {
+  	align-items: center;
 	border: 5px;
-	border-color: #ffffff;
+	border-color: #60E200;
 	border-style: solid;
 	background: #323232;
-	margin: 80px
+	margin: 80px;
+	position: absolute;
+	margin: 0 auto;
+	padding: 10px; /* Поля вокруг текста */
+}
+.creator {
+	font-size: 50px;
+}
+.goback {
+	color:white;
+}
+.maincontacts {
+  	align-items: center;
+	border: 5px;
+	border-color: #60E200;
+	border-style: solid;
+	background: #323232;
+	margin: 80px;
+	position: absolute;
+	margin: 0 auto;
+	width: 1500px;
+	padding: 10px; /* Поля вокруг текста */
 }
